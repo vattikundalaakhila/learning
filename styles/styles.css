@@ -496,7 +496,7 @@ a {
 .cta form input {
     padding: 1em;
     border-radius: 30px;
-    /* width: 100%; */
+     width: 310px; 
 }
 .cta form button{
     border-radius: 30px;
@@ -505,6 +505,15 @@ a {
     width: 310px;
     height: 45px;
 }
+@media screen and  (width < 1215px){
+    .cta .container {
+        flex-wrap: wrap;
+        width: 
+    }
+
+}
+    
+
 @media screen and (width < 920px) {
     .cta .container{
         flex-wrap: wrap;
@@ -518,7 +527,7 @@ a {
     .cta .container .left {
         flex-shrink: 1;
     }
-    .cta .container .right div{
+    .cta .container .right div input{
         width: 60px;
     }
     .cta .container .right button{
@@ -561,5 +570,18 @@ a {
         flex-wrap: wrap;
         /* margin: 2.5em 20px; */
        width: 200px;
+    }
+    .footer_container .footer_card1>img{
+        width: 120px;
+        
+    }
+    .footer_card1_platformIcons{
+        display: flex;
+        flex-direction: column;
+        /* padding: 20px; */
+    }
+    .footer_card4 ul{
+        display: flex;
+        flex-direction: column;
     }
 }
